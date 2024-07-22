@@ -141,7 +141,7 @@ a {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -192,4 +192,90 @@ a {
   font-family: "Manrope", sans-serif;
 
   color: #999999;
+}
+/* .................... NUMEROS...................... */
+
+.numeros {
+  align-items: unset;
+  align-content: unset;
+  display: grid;
+  flex: none;
+  gap: 10px;
+  grid-auto-rows: minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  order: 1;
+  height: auto;
+  margin-top: 20px;
+}
+
+.numP p {
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+
+  color: white;
+  background: #c9cfc6;
+  background: linear-gradient(to bottom, #c9cfc6 0%, #020000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projectsNum {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 6px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.txtN {
+  padding: 6px 10px;
+  width: 100%;
+  height: min-content;
+  display: flex;
+
+  font-family: "Manrope", sans-serif;
+  border-radius: 10px;
+  border: 1px rgb(33, 33, 33) solid;
+  color: white;
+  font-size: 13px;
+}
+
+.containerNum {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: visible;
+  padding: 10px;
+  position: relative;
+  background-color: #141414;
+  border-radius: 16px;
+  height: 100%;
+  width: 100%;
+
+  opacity: 1;
+}
+
+.numBox {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
 }
