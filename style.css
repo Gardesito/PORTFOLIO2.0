@@ -279,3 +279,76 @@ a {
   overflow: visible;
   padding: 0;
 }
+/* ---------------- */
+.clientes {
+  order: 2;
+  margin-top: 10px;
+  background-color: #141414;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 1;
+
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+}
+
+/* slide */
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+
+  overflow: hidden;
+  padding: 20px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+/* .logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+} */
+
+/* .logos:hover .logos-slide {
+  animation-play-state: paused;
+} */
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 30px;
+  margin: 0 40px;
+}
