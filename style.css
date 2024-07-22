@@ -246,8 +246,17 @@ a {
   font-family: "Manrope", sans-serif;
   border-radius: 10px;
   border: 1px rgb(33, 33, 33) solid;
-  color: white;
+  color: #cccccc;
   font-size: 13px;
+  font-weight: 400;
+}
+
+.cv {
+  font-family: "Manrope", sans-serif;
+
+  font-weight: 600;
+  color: #141414;
+  background-color: #a290fc;
 }
 
 .containerNum {
