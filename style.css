@@ -23,7 +23,7 @@ a {
 }
 
 .header {
-  background-color: #0f0f0f;
+  background-color: #050505;
   display: flex;
   justify-content: space-between;
   height: 60px;
@@ -82,7 +82,7 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #0f0f0f;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px;
   min-height: 180px;
   padding: 20px;
@@ -206,7 +206,7 @@ a {
   grid-template-rows: repeat(2, minmax(0, 1fr));
   order: 1;
   height: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .numP p {
