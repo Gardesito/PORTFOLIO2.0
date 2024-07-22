@@ -308,6 +308,40 @@ a {
   position: relative;
 }
 
+.containerClientes {
+  padding: 15px;
+}
+
+.clientesTxt {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+
+.textC1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #999999;
+  font-size: 14px;
+}
+
+.textC2 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+}
+
 /* slide */
 
 @keyframes slide {
@@ -348,5 +382,5 @@ a {
   border: 1px rgb(33, 33, 33) solid;
   border-radius: 10px;
   height: min-content;
-  margin: 0 10px;
+  margin: 0 5px;
 }
