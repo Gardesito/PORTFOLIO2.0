@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+@media (max-width: 800px) {
+  .portfolio {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    max-height: unset;
+    max-width: 440;
+    padding: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px rgb(33, 33, 33) solid;
+}
+
+.containerHeader {
+  align-content: center;
+  width: 100%;
+  flex-wrap: nowrap;
+  display: flex;
+  gap: 10px;
+}
+
+.containerHeader a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #a290fc;
+  width: 95px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+}
+.iconHeader {
+  width: 5px;
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-position: center;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+/* perfil */
+
+.perfil {
+  /*   display: flex;
+
+ */
+  object-fit: cover;
+  height: min-content;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f0f0f;
+  margin-top: 20px;
+  border-radius: 10px;
+  min-height: 180px;
+  padding: 20px;
+  border: 1px rgb(33, 33, 33) solid;
+}
+
+.containerPerfil {
+  display: flex;
+  gap: 20px;
+}
+
+.txtPerfil {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  display: grid;
+  gap: 10px;
+}
+
+.textDisponible {
+  border: white;
+}
+
+.imgPerfil {
+  width: 110px;
+  background-color: #a290fc;
+  border-radius: 10px;
+}
+
+/* info perfil */
+
+.fondoInfo {
+  padding: 6px 14px 6px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+
+  border-radius: 10px;
+  border: 1px rgb(33, 33, 33) solid;
+}
+
+.developer {
+  color: #a290fc;
+}
+
+.textInfo {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.infoDate {
+  padding: 15px 10px 16px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #141414;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.redes {
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.container-redes {
+  /* matiene las cajas iguales */
+  flex: 1 0 0px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+  background-color: #141414;
+  padding: 15px 10px 16px;
+  border-radius: 5px;
+  display: flex;
+  height: auto;
+}
+
+.redestext p {
+  font-family: "Manrope", sans-serif;
+
+  color: #999999;
+}
