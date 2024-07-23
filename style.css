@@ -363,7 +363,7 @@ a {
  */
 }
 
-.logos:before,
+/* .logos:before,
 .logos:after {
   position: absolute;
   top: 0;
@@ -372,7 +372,7 @@ a {
   content: "";
   z-index: 2;
 }
-
+ */
 .logos-slide {
   display: inline-block;
   animation: 40s slide infinite linear;
@@ -421,16 +421,14 @@ a {
 }
 
 .btnPro {
-  /*  bottom: 0;
+  bottom: 0;
   flex: none;
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  z-index: 1; */
-  /*   transform: translate(-50%, -50%);
+  /*   height: 100%;
  */
+  left: 0;
+  display: flex;
+  justify-content: center;
+
   opacity: 1;
 }
 
@@ -444,6 +442,7 @@ a {
   box-shadow: rgb(178, 164, 253) 2px 2px 2px 0px inset;
   opacity: 1;
 
+  padding: 10px 20px;
   cursor: pointer;
   align-items: center;
   display: flex;
@@ -454,6 +453,14 @@ a {
   height: min-content;
   justify-content: center;
   position: relative;
-  width: 100%;
+  width: min-content;
   z-index: 1;
+}
+.txtPro {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+
+  color: #141414;
+  font-weight: 600;
+  font-size: 14px;
 }
