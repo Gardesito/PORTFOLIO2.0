@@ -407,7 +407,7 @@ a {
 }
 
 .imgP {
-  width: 100%;
+  width: 60%;
   height: 100%;
   max-width: 100%;
   max-height: 100%;
@@ -418,4 +418,42 @@ a {
   position: relative;
   flex-direction: row;
   will-change: transform;
+}
+
+.btnPro {
+  /*  bottom: 0;
+  flex: none;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  z-index: 1; */
+  /*   transform: translate(-50%, -50%);
+ */
+  opacity: 1;
+}
+
+.containerBtn {
+  background: radial-gradient(
+    73.9583% 281.25% at 19.1667% 82.2917%,
+    rgb(179, 164, 253) 0%,
+    rgb(162, 144, 252) 49.3123%
+  );
+  border-radius: 12px;
+  box-shadow: rgb(178, 164, 253) 2px 2px 2px 0px inset;
+  opacity: 1;
+
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 6px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
